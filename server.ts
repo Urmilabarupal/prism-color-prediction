@@ -1,4 +1,5 @@
 import express, { Request, Response, NextFunction } from 'express';
+import { createServer as createHttpServer } from 'node:http';
 import path from 'path';
 import { createServer as createViteServer } from 'vite';
 import {
@@ -75,6 +76,7 @@ function requireManager(requiredPermission?: ManagerPermission) {
 
 async function startServer() {
   const app = express();
+  const httpServer = createHttpServer(app);
   const PORT = 3000;
 
   app.use(express.json());
@@ -1330,7 +1332,10 @@ async function startServer() {
   // Vite middleware setup
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: {
+        middlewareMode: true,
+        hmr: { server: httpServer },
+      },
       appType: 'spa',
     });
     app.use(vite.middlewares);
@@ -1342,7 +1347,7 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
+  httpServer.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on http://localhost:${PORT}`);
   });
 }
