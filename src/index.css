@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-points: 'Poppins', 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dedicated points and tabular numbers styling */
+.font-points {
+  font-family: 'Poppins', 'JetBrains Mono', sans-serif;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes sunburstSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes damanPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.65) translateY(30px);
+  }
+  65% {
+    opacity: 1;
+    transform: scale(1.03) translateY(-6px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes damanShine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.animate-sunburst {
+  animation: sunburstSpin 24s linear infinite;
+}
+
+.animate-daman-pop {
+  animation: damanPop 0.42s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.animate-daman-shine {
+  animation: damanShine 2.5s infinite;
+}

@@ -1,0 +1,3420 @@
+{
+  "users": {
+    "123456": {
+      "id": "123456",
+      "username": "Sandeep123",
+      "phone": "9876543210",
+      "email": "demo@prismgame.com",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "balance": 1074.3,
+      "bonus": 0,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 1,
+      "inviteCode": "123456",
+      "passwordHash": "password123",
+      "bankDetails": {
+        "accountName": "Sandeep Kumar",
+        "accountNumber": "918273645012",
+        "ifscOrRouting": "HDFC0001234",
+        "bankName": "HDFC Bank",
+        "upiId": "sandeep@okhdfcbank",
+        "usdtTrc20Address": "TNv9k2p8zY4e87M9sX2w1qL3jK5hG8rD4f",
+        "usdtBep20Address": "0x71C...38A9"
+      },
+      "createdAt": 1787036751430,
+      "role": "user",
+      "status": "ACTIVE",
+      "lockedBalance": 0,
+      "totalDeposited": 2000,
+      "totalWithdrawn": 500,
+      "totalWinnings": 850,
+      "totalBets": 1100,
+      "lastLogin": 1789644525859
+    },
+    "9876543210": {
+      "id": "123456",
+      "username": "Sandeep123",
+      "phone": "9876543210",
+      "email": "demo@prismgame.com",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "balance": 1250,
+      "bonus": 0,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 1,
+      "inviteCode": "123456",
+      "passwordHash": "password123",
+      "bankDetails": {
+        "accountName": "Sandeep Kumar",
+        "accountNumber": "918273645012",
+        "ifscOrRouting": "HDFC0001234",
+        "bankName": "HDFC Bank",
+        "upiId": "sandeep@okhdfcbank",
+        "usdtTrc20Address": "TNv9k2p8zY4e87M9sX2w1qL3jK5hG8rD4f",
+        "usdtBep20Address": "0x71C...38A9"
+      },
+      "createdAt": 1787036751430
+    },
+    "demo@prismgame.com": {
+      "id": "123456",
+      "username": "Sandeep123",
+      "phone": "9876543210",
+      "email": "demo@prismgame.com",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "balance": 1250,
+      "bonus": 0,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 1,
+      "inviteCode": "123456",
+      "passwordHash": "password123",
+      "bankDetails": {
+        "accountName": "Sandeep Kumar",
+        "accountNumber": "918273645012",
+        "ifscOrRouting": "HDFC0001234",
+        "bankName": "HDFC Bank",
+        "upiId": "sandeep@okhdfcbank",
+        "usdtTrc20Address": "TNv9k2p8zY4e87M9sX2w1qL3jK5hG8rD4f",
+        "usdtBep20Address": "0x71C...38A9"
+      },
+      "createdAt": 1787036751430
+    },
+    "MGR-888999": {
+      "id": "MGR-888999",
+      "managerUid": "MGR-888999",
+      "username": "SuperAdmin_Prism",
+      "email": "admin@prismgame.com",
+      "phone": "18005550199",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "super_manager",
+      "permissions": [
+        "dashboard.view",
+        "users.view",
+        "users.manage",
+        "deposits.view",
+        "deposits.manage",
+        "withdrawals.view",
+        "withdrawals.manage",
+        "games.view",
+        "games.manage",
+        "reports.view",
+        "settings.manage"
+      ],
+      "status": "ACTIVE",
+      "balance": 100000,
+      "lockedBalance": 0,
+      "totalDeposited": 0,
+      "totalWithdrawn": 0,
+      "totalWinnings": 0,
+      "totalBets": 0,
+      "bonus": 0,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 10,
+      "inviteCode": "ADMIN01",
+      "passwordHash": "Manager@2026",
+      "createdAt": 1784460454255,
+      "lastLogin": 1789644571497
+    },
+    "admin@prismgame.com": {
+      "id": "MGR-888999",
+      "managerUid": "MGR-888999",
+      "username": "SuperAdmin_Prism",
+      "email": "admin@prismgame.com",
+      "phone": "18005550199",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "super_manager",
+      "permissions": [
+        "dashboard.view",
+        "users.view",
+        "users.manage",
+        "deposits.view",
+        "deposits.manage",
+        "withdrawals.view",
+        "withdrawals.manage",
+        "games.view",
+        "games.manage",
+        "reports.view",
+        "settings.manage"
+      ],
+      "status": "ACTIVE",
+      "balance": 100000,
+      "lockedBalance": 0,
+      "totalDeposited": 0,
+      "totalWithdrawn": 0,
+      "totalWinnings": 0,
+      "totalBets": 0,
+      "bonus": 0,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 10,
+      "inviteCode": "ADMIN01",
+      "passwordHash": "Manager@2026",
+      "createdAt": 1784460454255,
+      "lastLogin": 1789644571497
+    },
+    "MGR-100200": {
+      "id": "MGR-100200",
+      "managerUid": "MGR-100200",
+      "username": "Finance_Officer",
+      "email": "ops@prismgame.com",
+      "phone": "18005550200",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "role": "manager",
+      "permissions": [
+        "dashboard.view",
+        "users.view",
+        "deposits.view",
+        "deposits.manage",
+        "withdrawals.view",
+        "withdrawals.manage",
+        "games.view",
+        "reports.view"
+      ],
+      "status": "ACTIVE",
+      "balance": 50000,
+      "lockedBalance": 0,
+      "totalDeposited": 0,
+      "totalWithdrawn": 0,
+      "totalWinnings": 0,
+      "totalBets": 0,
+      "bonus": 0,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 8,
+      "inviteCode": "OPS02",
+      "passwordHash": "Manager@2026",
+      "createdAt": 1786188454255,
+      "lastLogin": 1789644573867
+    },
+    "ops@prismgame.com": {
+      "id": "MGR-100200",
+      "managerUid": "MGR-100200",
+      "username": "Finance_Officer",
+      "email": "ops@prismgame.com",
+      "phone": "18005550200",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "role": "manager",
+      "permissions": [
+        "dashboard.view",
+        "users.view",
+        "deposits.view",
+        "deposits.manage",
+        "withdrawals.view",
+        "withdrawals.manage",
+        "games.view",
+        "reports.view"
+      ],
+      "status": "ACTIVE",
+      "balance": 50000,
+      "lockedBalance": 0,
+      "totalDeposited": 0,
+      "totalWithdrawn": 0,
+      "totalWinnings": 0,
+      "totalBets": 0,
+      "bonus": 0,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 8,
+      "inviteCode": "OPS02",
+      "passwordHash": "Manager@2026",
+      "createdAt": 1786188454255,
+      "lastLogin": 1789644573867
+    }
+  },
+  "roundsHistory": {
+    "1min": [
+      {
+        "periodId": "202609170689",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "11:28:55",
+        "timestamp": 1789644535390
+      },
+      {
+        "periodId": "202609170688",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "11:27:55",
+        "timestamp": 1789644475338
+      },
+      {
+        "periodId": "202609170546",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "09:05:55",
+        "timestamp": 1789635955214
+      },
+      {
+        "periodId": "202609170545",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "09:04:55",
+        "timestamp": 1789635895151
+      },
+      {
+        "periodId": "202609170544",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "09:03:55",
+        "timestamp": 1789635835103
+      },
+      {
+        "periodId": "202609170543",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "09:02:55",
+        "timestamp": 1789635775056
+      },
+      {
+        "periodId": "202609170542",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "09:01:55",
+        "timestamp": 1789635715022
+      },
+      {
+        "periodId": "202609170541",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "09:00:55",
+        "timestamp": 1789635655984
+      },
+      {
+        "periodId": "202609170540",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:59:55",
+        "timestamp": 1789635595930
+      },
+      {
+        "periodId": "202609170539",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:58:55",
+        "timestamp": 1789635535888
+      },
+      {
+        "periodId": "202609170538",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:57:55",
+        "timestamp": 1789635475847
+      },
+      {
+        "periodId": "202609170537",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:56:55",
+        "timestamp": 1789635415937
+      },
+      {
+        "periodId": "202609170536",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:55:55",
+        "timestamp": 1789635355894
+      },
+      {
+        "periodId": "202609170535",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:54:55",
+        "timestamp": 1789635295855
+      },
+      {
+        "periodId": "202609170534",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:53:55",
+        "timestamp": 1789635235817
+      },
+      {
+        "periodId": "202609170533",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:52:55",
+        "timestamp": 1789635175775
+      },
+      {
+        "periodId": "202609170532",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:51:55",
+        "timestamp": 1789635115729
+      },
+      {
+        "periodId": "202609170531",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:50:55",
+        "timestamp": 1789635055684
+      },
+      {
+        "periodId": "202609170530",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:49:55",
+        "timestamp": 1789634995639
+      },
+      {
+        "periodId": "202609170529",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:48:55",
+        "timestamp": 1789634935591
+      },
+      {
+        "periodId": "202609170528",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:47:55",
+        "timestamp": 1789634875544
+      },
+      {
+        "periodId": "202609170527",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:46:55",
+        "timestamp": 1789634815496
+      },
+      {
+        "periodId": "202609170526",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:45:55",
+        "timestamp": 1789634755437
+      },
+      {
+        "periodId": "202609170525",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:44:55",
+        "timestamp": 1789634695385
+      },
+      {
+        "periodId": "202609170524",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "08:43:55",
+        "timestamp": 1789634635329
+      },
+      {
+        "periodId": "202609170523",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:42:55",
+        "timestamp": 1789634575292
+      },
+      {
+        "periodId": "202609170522",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:41:55",
+        "timestamp": 1789634515243
+      },
+      {
+        "periodId": "202609170521",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:40:55",
+        "timestamp": 1789634455202
+      },
+      {
+        "periodId": "202609170520",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:39:55",
+        "timestamp": 1789634395163
+      },
+      {
+        "periodId": "202609170519",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:38:55",
+        "timestamp": 1789634335124
+      },
+      {
+        "periodId": "202609170518",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "08:37:55",
+        "timestamp": 1789634275085
+      },
+      {
+        "periodId": "202609170517",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:36:55",
+        "timestamp": 1789634215049
+      },
+      {
+        "periodId": "202609170516",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:35:55",
+        "timestamp": 1789634155005
+      },
+      {
+        "periodId": "202609170515",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:34:55",
+        "timestamp": 1789634095961
+      },
+      {
+        "periodId": "202609170514",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:33:55",
+        "timestamp": 1789634035917
+      },
+      {
+        "periodId": "202609170513",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:32:55",
+        "timestamp": 1789633975860
+      },
+      {
+        "periodId": "202609170512",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:31:55",
+        "timestamp": 1789633915823
+      },
+      {
+        "periodId": "202609170511",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:30:55",
+        "timestamp": 1789633855782
+      },
+      {
+        "periodId": "202609170510",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:29:55",
+        "timestamp": 1789633795728
+      },
+      {
+        "periodId": "202609170509",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:28:55",
+        "timestamp": 1789633735691
+      },
+      {
+        "periodId": "202609170508",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:27:55",
+        "timestamp": 1789633675656
+      },
+      {
+        "periodId": "202609170507",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:26:55",
+        "timestamp": 1789633615616
+      },
+      {
+        "periodId": "202609170506",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:25:55",
+        "timestamp": 1789633555574
+      },
+      {
+        "periodId": "202609170505",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:24:55",
+        "timestamp": 1789633495526
+      },
+      {
+        "periodId": "202609170504",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "08:23:55",
+        "timestamp": 1789633435481
+      },
+      {
+        "periodId": "202609170503",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:22:55",
+        "timestamp": 1789633375434
+      },
+      {
+        "periodId": "202609170502",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:21:55",
+        "timestamp": 1789633315384
+      },
+      {
+        "periodId": "202609170501",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:20:55",
+        "timestamp": 1789633255340
+      },
+      {
+        "periodId": "202609170500",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:19:55",
+        "timestamp": 1789633195291
+      },
+      {
+        "periodId": "202609170499",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:18:55",
+        "timestamp": 1789633135251
+      },
+      {
+        "periodId": "202609170498",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:17:55",
+        "timestamp": 1789633075200
+      },
+      {
+        "periodId": "202609170497",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:16:55",
+        "timestamp": 1789633015156
+      },
+      {
+        "periodId": "202609170496",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:15:55",
+        "timestamp": 1789632955116
+      },
+      {
+        "periodId": "202609170495",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:14:55",
+        "timestamp": 1789632895070
+      },
+      {
+        "periodId": "202609170494",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:13:55",
+        "timestamp": 1789632835025
+      },
+      {
+        "periodId": "202609170493",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:12:55",
+        "timestamp": 1789632775983
+      },
+      {
+        "periodId": "202609170492",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:11:55",
+        "timestamp": 1789632715941
+      },
+      {
+        "periodId": "202609170491",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:10:55",
+        "timestamp": 1789632655897
+      },
+      {
+        "periodId": "202609170490",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:09:55",
+        "timestamp": 1789632595855
+      },
+      {
+        "periodId": "202609170489",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:08:55",
+        "timestamp": 1789632535816
+      },
+      {
+        "periodId": "202609170488",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:07:55",
+        "timestamp": 1789632475776
+      },
+      {
+        "periodId": "202609170487",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:06:55",
+        "timestamp": 1789632415736
+      },
+      {
+        "periodId": "202609170486",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:05:55",
+        "timestamp": 1789632355688
+      },
+      {
+        "periodId": "202609170485",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:04:55",
+        "timestamp": 1789632295643
+      },
+      {
+        "periodId": "202609170484",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:03:55",
+        "timestamp": 1789632235598
+      },
+      {
+        "periodId": "202609170483",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:02:55",
+        "timestamp": 1789632175556
+      },
+      {
+        "periodId": "202609170482",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:01:55",
+        "timestamp": 1789632115513
+      },
+      {
+        "periodId": "202609170481",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:00:55",
+        "timestamp": 1789632055458
+      },
+      {
+        "periodId": "202609170480",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:59:55",
+        "timestamp": 1789631995422
+      },
+      {
+        "periodId": "202609170479",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:58:55",
+        "timestamp": 1789631935378
+      },
+      {
+        "periodId": "202609170478",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:57:55",
+        "timestamp": 1789631875325
+      },
+      {
+        "periodId": "202609170477",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:56:55",
+        "timestamp": 1789631815275
+      },
+      {
+        "periodId": "202609170476",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:55:55",
+        "timestamp": 1789631755229
+      },
+      {
+        "periodId": "202609170475",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:54:55",
+        "timestamp": 1789631695174
+      },
+      {
+        "periodId": "202609170474",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:53:55",
+        "timestamp": 1789631635457
+      },
+      {
+        "periodId": "202609170473",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:52:55",
+        "timestamp": 1789631575412
+      },
+      {
+        "periodId": "202609170472",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:51:55",
+        "timestamp": 1789631515366
+      },
+      {
+        "periodId": "202609170471",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:50:55",
+        "timestamp": 1789631455330
+      },
+      {
+        "periodId": "202609170470",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:49:55",
+        "timestamp": 1789631395281
+      },
+      {
+        "periodId": "202609170469",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:48:55",
+        "timestamp": 1789631335234
+      },
+      {
+        "periodId": "202609170468",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:47:55",
+        "timestamp": 1789631275190
+      },
+      {
+        "periodId": "202609170467",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:46:55",
+        "timestamp": 1789631215144
+      },
+      {
+        "periodId": "202609170466",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:45:55",
+        "timestamp": 1789631155091
+      },
+      {
+        "periodId": "202609170465",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:44:55",
+        "timestamp": 1789631095056
+      },
+      {
+        "periodId": "202609170464",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:43:55",
+        "timestamp": 1789631035212
+      },
+      {
+        "periodId": "202609170463",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:42:55",
+        "timestamp": 1789630975165
+      },
+      {
+        "periodId": "202609170462",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:41:55",
+        "timestamp": 1789630915124
+      },
+      {
+        "periodId": "202609170461",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:40:55",
+        "timestamp": 1789630855270
+      },
+      {
+        "periodId": "202609170460",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:39:55",
+        "timestamp": 1789630795218
+      },
+      {
+        "periodId": "202609170459",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:38:55",
+        "timestamp": 1789630735161
+      },
+      {
+        "periodId": "202609170458",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:37:55",
+        "timestamp": 1789630675219
+      },
+      {
+        "periodId": "202609170457",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:36:55",
+        "timestamp": 1789630615177
+      },
+      {
+        "periodId": "202609170456",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:35:55",
+        "timestamp": 1789630555138
+      },
+      {
+        "periodId": "202609170455",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:34:55",
+        "timestamp": 1789630495101
+      },
+      {
+        "periodId": "202609170454",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:33:55",
+        "timestamp": 1789630435060
+      },
+      {
+        "periodId": "202609170453",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:32:55",
+        "timestamp": 1789630375020
+      },
+      {
+        "periodId": "202609170452",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:31:55",
+        "timestamp": 1789630315979
+      },
+      {
+        "periodId": "202609170451",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:30:55",
+        "timestamp": 1789630255929
+      },
+      {
+        "periodId": "202609170450",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:29:55",
+        "timestamp": 1789630195886
+      },
+      {
+        "periodId": "202609170449",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:28:55",
+        "timestamp": 1789630135835
+      }
+    ],
+    "3min": [
+      {
+        "periodId": "202609170182",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "09:05:55",
+        "timestamp": 1789635955214
+      },
+      {
+        "periodId": "202609170181",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "09:02:55",
+        "timestamp": 1789635775056
+      },
+      {
+        "periodId": "202609170180",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:59:55",
+        "timestamp": 1789635595930
+      },
+      {
+        "periodId": "202609170179",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:56:55",
+        "timestamp": 1789635415937
+      },
+      {
+        "periodId": "202609170178",
+        "mode": "3min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:53:55",
+        "timestamp": 1789635235817
+      },
+      {
+        "periodId": "202609170177",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "08:50:55",
+        "timestamp": 1789635055684
+      },
+      {
+        "periodId": "202609170176",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:47:55",
+        "timestamp": 1789634875544
+      },
+      {
+        "periodId": "202609170175",
+        "mode": "3min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:44:55",
+        "timestamp": 1789634695385
+      },
+      {
+        "periodId": "202609170174",
+        "mode": "3min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "08:41:55",
+        "timestamp": 1789634515243
+      },
+      {
+        "periodId": "202609170173",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "08:38:55",
+        "timestamp": 1789634335124
+      },
+      {
+        "periodId": "202609170172",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:35:55",
+        "timestamp": 1789634155005
+      },
+      {
+        "periodId": "202609170171",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:32:55",
+        "timestamp": 1789633975860
+      },
+      {
+        "periodId": "202609170170",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:29:55",
+        "timestamp": 1789633795728
+      },
+      {
+        "periodId": "202609170169",
+        "mode": "3min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:26:55",
+        "timestamp": 1789633615616
+      },
+      {
+        "periodId": "202609170168",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:23:55",
+        "timestamp": 1789633435481
+      },
+      {
+        "periodId": "202609170167",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:20:55",
+        "timestamp": 1789633255340
+      },
+      {
+        "periodId": "202609170166",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:17:55",
+        "timestamp": 1789633075200
+      },
+      {
+        "periodId": "202609170165",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:14:55",
+        "timestamp": 1789632895070
+      },
+      {
+        "periodId": "202609170164",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:11:55",
+        "timestamp": 1789632715941
+      },
+      {
+        "periodId": "202609170163",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:08:55",
+        "timestamp": 1789632535816
+      },
+      {
+        "periodId": "202609170162",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:05:55",
+        "timestamp": 1789632355688
+      },
+      {
+        "periodId": "202609170161",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "08:02:55",
+        "timestamp": 1789632175556
+      },
+      {
+        "periodId": "202609170160",
+        "mode": "3min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:59:55",
+        "timestamp": 1789631995422
+      },
+      {
+        "periodId": "202609170159",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:56:55",
+        "timestamp": 1789631815275
+      },
+      {
+        "periodId": "202609170158",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:53:55",
+        "timestamp": 1789631635457
+      },
+      {
+        "periodId": "202609170157",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:50:55",
+        "timestamp": 1789631455330
+      },
+      {
+        "periodId": "202609170156",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:47:55",
+        "timestamp": 1789631275190
+      },
+      {
+        "periodId": "202609170155",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:44:55",
+        "timestamp": 1789631095056
+      },
+      {
+        "periodId": "202609170154",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:41:55",
+        "timestamp": 1789630915124
+      },
+      {
+        "periodId": "202609170153",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:38:55",
+        "timestamp": 1789630735161
+      },
+      {
+        "periodId": "202609170152",
+        "mode": "3min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:35:55",
+        "timestamp": 1789630555138
+      },
+      {
+        "periodId": "202609170151",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:32:55",
+        "timestamp": 1789630375020
+      },
+      {
+        "periodId": "202609170150",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:29:55",
+        "timestamp": 1789630195886
+      },
+      {
+        "periodId": "202609170149",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:26:55",
+        "timestamp": 1789630015739
+      },
+      {
+        "periodId": "202609170148",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:23:55",
+        "timestamp": 1789629835995
+      },
+      {
+        "periodId": "202609170147",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:20:55",
+        "timestamp": 1789629655958
+      },
+      {
+        "periodId": "202609170146",
+        "mode": "3min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:17:55",
+        "timestamp": 1789629475824
+      },
+      {
+        "periodId": "202609170145",
+        "mode": "3min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:14:55",
+        "timestamp": 1789629295487
+      },
+      {
+        "periodId": "202609170144",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:11:57",
+        "timestamp": 1789629117367
+      },
+      {
+        "periodId": "202609170143",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:08:55",
+        "timestamp": 1789628935878
+      },
+      {
+        "periodId": "202609170142",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:05:55",
+        "timestamp": 1789628755460
+      },
+      {
+        "periodId": "202609170100",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "06:40:51",
+        "timestamp": 1789627251450
+      },
+      {
+        "periodId": "202609170101",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:41:51",
+        "timestamp": 1789627311450
+      },
+      {
+        "periodId": "202609170102",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:42:51",
+        "timestamp": 1789627371450
+      },
+      {
+        "periodId": "202609170103",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:43:51",
+        "timestamp": 1789627431450
+      },
+      {
+        "periodId": "202609170104",
+        "mode": "3min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:44:51",
+        "timestamp": 1789627491450
+      },
+      {
+        "periodId": "202609170105",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:45:51",
+        "timestamp": 1789627551450
+      },
+      {
+        "periodId": "202609170106",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:46:51",
+        "timestamp": 1789627611450
+      },
+      {
+        "periodId": "202609170107",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "06:47:51",
+        "timestamp": 1789627671450
+      },
+      {
+        "periodId": "202609170108",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:48:51",
+        "timestamp": 1789627731450
+      },
+      {
+        "periodId": "202609170109",
+        "mode": "3min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:49:51",
+        "timestamp": 1789627791450
+      },
+      {
+        "periodId": "202609170110",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:50:51",
+        "timestamp": 1789627851450
+      },
+      {
+        "periodId": "202609170111",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:51:51",
+        "timestamp": 1789627911450
+      },
+      {
+        "periodId": "202609170112",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "06:52:51",
+        "timestamp": 1789627971450
+      },
+      {
+        "periodId": "202609170113",
+        "mode": "3min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:53:51",
+        "timestamp": 1789628031450
+      },
+      {
+        "periodId": "202609170114",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:54:51",
+        "timestamp": 1789628091450
+      },
+      {
+        "periodId": "202609170115",
+        "mode": "3min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:55:51",
+        "timestamp": 1789628151450
+      },
+      {
+        "periodId": "202609170116",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:56:51",
+        "timestamp": 1789628211450
+      },
+      {
+        "periodId": "202609170117",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "06:57:51",
+        "timestamp": 1789628271450
+      },
+      {
+        "periodId": "202609170118",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "06:58:51",
+        "timestamp": 1789628331450
+      },
+      {
+        "periodId": "202609170119",
+        "mode": "3min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:59:51",
+        "timestamp": 1789628391450
+      },
+      {
+        "periodId": "202609170120",
+        "mode": "3min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:00:51",
+        "timestamp": 1789628451450
+      },
+      {
+        "periodId": "202609170121",
+        "mode": "3min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:01:51",
+        "timestamp": 1789628511450
+      },
+      {
+        "periodId": "202609170122",
+        "mode": "3min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:02:51",
+        "timestamp": 1789628571450
+      },
+      {
+        "periodId": "202609170123",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:03:51",
+        "timestamp": 1789628631450
+      },
+      {
+        "periodId": "202609170124",
+        "mode": "3min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:04:51",
+        "timestamp": 1789628691450
+      }
+    ],
+    "5min": [
+      {
+        "periodId": "202609170099",
+        "mode": "5min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:14:55",
+        "timestamp": 1789632895070
+      },
+      {
+        "periodId": "202609170098",
+        "mode": "5min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:09:55",
+        "timestamp": 1789632595855
+      },
+      {
+        "periodId": "202609170097",
+        "mode": "5min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:04:55",
+        "timestamp": 1789632295643
+      },
+      {
+        "periodId": "202609170096",
+        "mode": "5min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:59:55",
+        "timestamp": 1789631995422
+      },
+      {
+        "periodId": "202609170095",
+        "mode": "5min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:54:55",
+        "timestamp": 1789631695174
+      },
+      {
+        "periodId": "202609170094",
+        "mode": "5min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:49:55",
+        "timestamp": 1789631395281
+      },
+      {
+        "periodId": "202609170093",
+        "mode": "5min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:44:55",
+        "timestamp": 1789631095056
+      },
+      {
+        "periodId": "202609170092",
+        "mode": "5min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:39:55",
+        "timestamp": 1789630795218
+      },
+      {
+        "periodId": "202609170091",
+        "mode": "5min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:34:55",
+        "timestamp": 1789630495101
+      },
+      {
+        "periodId": "202609170090",
+        "mode": "5min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:29:55",
+        "timestamp": 1789630195886
+      },
+      {
+        "periodId": "202609170089",
+        "mode": "5min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:24:55",
+        "timestamp": 1789629895032
+      },
+      {
+        "periodId": "202609170088",
+        "mode": "5min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:19:55",
+        "timestamp": 1789629595919
+      },
+      {
+        "periodId": "202609170087",
+        "mode": "5min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:14:55",
+        "timestamp": 1789629295487
+      },
+      {
+        "periodId": "202609170086",
+        "mode": "5min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:09:55",
+        "timestamp": 1789628995069
+      },
+      {
+        "periodId": "202609170100",
+        "mode": "5min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:40:51",
+        "timestamp": 1789627251451
+      },
+      {
+        "periodId": "202609170101",
+        "mode": "5min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:41:51",
+        "timestamp": 1789627311451
+      },
+      {
+        "periodId": "202609170102",
+        "mode": "5min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "06:42:51",
+        "timestamp": 1789627371451
+      },
+      {
+        "periodId": "202609170103",
+        "mode": "5min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:43:51",
+        "timestamp": 1789627431451
+      },
+      {
+        "periodId": "202609170104",
+        "mode": "5min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:44:51",
+        "timestamp": 1789627491451
+      },
+      {
+        "periodId": "202609170105",
+        "mode": "5min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:45:51",
+        "timestamp": 1789627551451
+      },
+      {
+        "periodId": "202609170106",
+        "mode": "5min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:46:51",
+        "timestamp": 1789627611451
+      },
+      {
+        "periodId": "202609170107",
+        "mode": "5min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:47:51",
+        "timestamp": 1789627671451
+      },
+      {
+        "periodId": "202609170108",
+        "mode": "5min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:48:51",
+        "timestamp": 1789627731451
+      },
+      {
+        "periodId": "202609170109",
+        "mode": "5min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:49:51",
+        "timestamp": 1789627791451
+      },
+      {
+        "periodId": "202609170110",
+        "mode": "5min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "06:50:51",
+        "timestamp": 1789627851451
+      },
+      {
+        "periodId": "202609170111",
+        "mode": "5min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "06:51:51",
+        "timestamp": 1789627911451
+      },
+      {
+        "periodId": "202609170112",
+        "mode": "5min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:52:51",
+        "timestamp": 1789627971451
+      },
+      {
+        "periodId": "202609170113",
+        "mode": "5min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:53:51",
+        "timestamp": 1789628031451
+      },
+      {
+        "periodId": "202609170114",
+        "mode": "5min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:54:51",
+        "timestamp": 1789628091451
+      },
+      {
+        "periodId": "202609170115",
+        "mode": "5min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:55:51",
+        "timestamp": 1789628151451
+      },
+      {
+        "periodId": "202609170116",
+        "mode": "5min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:56:51",
+        "timestamp": 1789628211451
+      },
+      {
+        "periodId": "202609170117",
+        "mode": "5min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:57:51",
+        "timestamp": 1789628271451
+      },
+      {
+        "periodId": "202609170118",
+        "mode": "5min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:58:51",
+        "timestamp": 1789628331451
+      },
+      {
+        "periodId": "202609170119",
+        "mode": "5min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:59:51",
+        "timestamp": 1789628391451
+      },
+      {
+        "periodId": "202609170120",
+        "mode": "5min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:00:51",
+        "timestamp": 1789628451451
+      },
+      {
+        "periodId": "202609170121",
+        "mode": "5min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:01:51",
+        "timestamp": 1789628511451
+      },
+      {
+        "periodId": "202609170122",
+        "mode": "5min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:02:51",
+        "timestamp": 1789628571451
+      },
+      {
+        "periodId": "202609170123",
+        "mode": "5min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:03:51",
+        "timestamp": 1789628631451
+      },
+      {
+        "periodId": "202609170124",
+        "mode": "5min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:04:51",
+        "timestamp": 1789628691451
+      }
+    ],
+    "10min": [
+      {
+        "periodId": "202609170054",
+        "mode": "10min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "08:59:55",
+        "timestamp": 1789635595930
+      },
+      {
+        "periodId": "202609170053",
+        "mode": "10min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "08:49:55",
+        "timestamp": 1789634995639
+      },
+      {
+        "periodId": "202609170052",
+        "mode": "10min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "08:39:55",
+        "timestamp": 1789634395163
+      },
+      {
+        "periodId": "202609170051",
+        "mode": "10min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:29:55",
+        "timestamp": 1789633795728
+      },
+      {
+        "periodId": "202609170050",
+        "mode": "10min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "08:19:55",
+        "timestamp": 1789633195291
+      },
+      {
+        "periodId": "202609170049",
+        "mode": "10min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "08:09:55",
+        "timestamp": 1789632595855
+      },
+      {
+        "periodId": "202609170048",
+        "mode": "10min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:59:55",
+        "timestamp": 1789631995422
+      },
+      {
+        "periodId": "202609170047",
+        "mode": "10min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "07:49:55",
+        "timestamp": 1789631395281
+      },
+      {
+        "periodId": "202609170046",
+        "mode": "10min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:39:55",
+        "timestamp": 1789630795218
+      },
+      {
+        "periodId": "202609170045",
+        "mode": "10min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:29:55",
+        "timestamp": 1789630195886
+      },
+      {
+        "periodId": "202609170044",
+        "mode": "10min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:19:55",
+        "timestamp": 1789629595919
+      },
+      {
+        "periodId": "202609170043",
+        "mode": "10min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:09:55",
+        "timestamp": 1789628995069
+      },
+      {
+        "periodId": "202609170100",
+        "mode": "10min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:40:51",
+        "timestamp": 1789627251453
+      },
+      {
+        "periodId": "202609170101",
+        "mode": "10min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:41:51",
+        "timestamp": 1789627311453
+      },
+      {
+        "periodId": "202609170102",
+        "mode": "10min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:42:51",
+        "timestamp": 1789627371453
+      },
+      {
+        "periodId": "202609170103",
+        "mode": "10min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:43:51",
+        "timestamp": 1789627431453
+      },
+      {
+        "periodId": "202609170104",
+        "mode": "10min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:44:51",
+        "timestamp": 1789627491453
+      },
+      {
+        "periodId": "202609170105",
+        "mode": "10min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:45:51",
+        "timestamp": 1789627551453
+      },
+      {
+        "periodId": "202609170106",
+        "mode": "10min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:46:51",
+        "timestamp": 1789627611453
+      },
+      {
+        "periodId": "202609170107",
+        "mode": "10min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:47:51",
+        "timestamp": 1789627671453
+      },
+      {
+        "periodId": "202609170108",
+        "mode": "10min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:48:51",
+        "timestamp": 1789627731453
+      },
+      {
+        "periodId": "202609170109",
+        "mode": "10min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:49:51",
+        "timestamp": 1789627791453
+      },
+      {
+        "periodId": "202609170110",
+        "mode": "10min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:50:51",
+        "timestamp": 1789627851453
+      },
+      {
+        "periodId": "202609170111",
+        "mode": "10min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:51:51",
+        "timestamp": 1789627911453
+      },
+      {
+        "periodId": "202609170112",
+        "mode": "10min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:52:51",
+        "timestamp": 1789627971453
+      },
+      {
+        "periodId": "202609170113",
+        "mode": "10min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "06:53:51",
+        "timestamp": 1789628031453
+      },
+      {
+        "periodId": "202609170114",
+        "mode": "10min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:54:51",
+        "timestamp": 1789628091453
+      },
+      {
+        "periodId": "202609170115",
+        "mode": "10min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:55:51",
+        "timestamp": 1789628151453
+      },
+      {
+        "periodId": "202609170116",
+        "mode": "10min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "06:56:51",
+        "timestamp": 1789628211453
+      },
+      {
+        "periodId": "202609170117",
+        "mode": "10min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "06:57:51",
+        "timestamp": 1789628271453
+      },
+      {
+        "periodId": "202609170118",
+        "mode": "10min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "06:58:51",
+        "timestamp": 1789628331453
+      },
+      {
+        "periodId": "202609170119",
+        "mode": "10min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "06:59:51",
+        "timestamp": 1789628391453
+      },
+      {
+        "periodId": "202609170120",
+        "mode": "10min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "07:00:51",
+        "timestamp": 1789628451453
+      },
+      {
+        "periodId": "202609170121",
+        "mode": "10min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:01:51",
+        "timestamp": 1789628511453
+      },
+      {
+        "periodId": "202609170122",
+        "mode": "10min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:02:51",
+        "timestamp": 1789628571453
+      },
+      {
+        "periodId": "202609170123",
+        "mode": "10min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "07:03:51",
+        "timestamp": 1789628631453
+      },
+      {
+        "periodId": "202609170124",
+        "mode": "10min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "07:04:51",
+        "timestamp": 1789628691453
+      }
+    ]
+  },
+  "bets": [
+    {
+      "id": "bet_1789632570388_7lvce",
+      "userId": "123456",
+      "periodId": "202609170490",
+      "mode": "1min",
+      "type": "bigSmall",
+      "selection": "small",
+      "amount": 10,
+      "payout": 0,
+      "status": "LOST",
+      "createdAt": 1789632570388,
+      "resolvedAt": 1789632600856,
+      "resultNumber": 7,
+      "resultColors": [
+        "green"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_1789632566421_g37uc",
+      "userId": "123456",
+      "periodId": "202609170490",
+      "mode": "1min",
+      "type": "bigSmall",
+      "selection": "small",
+      "amount": 10,
+      "payout": 0,
+      "status": "LOST",
+      "createdAt": 1789632566421,
+      "resolvedAt": 1789632600856,
+      "resultNumber": 7,
+      "resultColors": [
+        "green"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_1789632524981_xa16b",
+      "userId": "123456",
+      "periodId": "202609170489",
+      "mode": "1min",
+      "type": "color",
+      "selection": "violet",
+      "amount": 10,
+      "payout": 0,
+      "status": "LOST",
+      "createdAt": 1789632524981,
+      "resolvedAt": 1789632540816,
+      "resultNumber": 8,
+      "resultColors": [
+        "red"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_1789632345843_pmys5",
+      "userId": "123456",
+      "periodId": "202609170486",
+      "mode": "1min",
+      "type": "bigSmall",
+      "selection": "big",
+      "amount": 10,
+      "payout": 19.6,
+      "status": "WON",
+      "createdAt": 1789632345843,
+      "resolvedAt": 1789632360688,
+      "resultNumber": 6,
+      "resultColors": [
+        "red"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_1789631107153_5iewy",
+      "userId": "123456",
+      "periodId": "202609170466",
+      "mode": "1min",
+      "type": "color",
+      "selection": "green",
+      "amount": 10,
+      "payout": 14.7,
+      "status": "WON",
+      "createdAt": 1789631107153,
+      "resolvedAt": 1789631160091,
+      "resultNumber": 5,
+      "resultColors": [
+        "green",
+        "violet"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_1789630155097_ihyi8",
+      "userId": "123456",
+      "periodId": "202609170450",
+      "mode": "1min",
+      "type": "bigSmall",
+      "selection": "small",
+      "amount": 10,
+      "payout": 0,
+      "status": "LOST",
+      "createdAt": 1789630155097,
+      "resolvedAt": 1789630200886,
+      "resultNumber": 8,
+      "resultColors": [
+        "red"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_1789629142806_j6nef",
+      "userId": "123456",
+      "periodId": "202609170433",
+      "mode": "1min",
+      "type": "bigSmall",
+      "selection": "small",
+      "amount": 50,
+      "payout": 0,
+      "status": "LOST",
+      "createdAt": 1789629142806,
+      "resolvedAt": 1789629180411,
+      "resultNumber": 9,
+      "resultColors": [
+        "green"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_init_1",
+      "userId": "123456",
+      "periodId": "202609160120",
+      "mode": "1min",
+      "type": "color",
+      "selection": "green",
+      "amount": 100,
+      "payout": 196,
+      "status": "WON",
+      "createdAt": 1789628451454,
+      "resolvedAt": 1789628511454,
+      "resultNumber": 7,
+      "resultColors": [
+        "green"
+      ],
+      "resultBigSmall": "big"
+    },
+    {
+      "id": "bet_init_2",
+      "userId": "123456",
+      "periodId": "202609160121",
+      "mode": "1min",
+      "type": "bigSmall",
+      "selection": "small",
+      "amount": 50,
+      "payout": 98,
+      "status": "WON",
+      "createdAt": 1789628511454,
+      "resolvedAt": 1789628571454,
+      "resultNumber": 3,
+      "resultColors": [
+        "green"
+      ],
+      "resultBigSmall": "small"
+    },
+    {
+      "id": "bet_init_3",
+      "userId": "123456",
+      "periodId": "202609160122",
+      "mode": "1min",
+      "type": "color",
+      "selection": "violet",
+      "amount": 50,
+      "payout": 0,
+      "status": "LOST",
+      "createdAt": 1789628571454,
+      "resolvedAt": 1789628631454,
+      "resultNumber": 8,
+      "resultColors": [
+        "red"
+      ],
+      "resultBigSmall": "big"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_bet_1789632570388_0h49",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 10,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1min Period 202609170490 (bigSmall small)",
+      "createdAt": 1789632570388
+    },
+    {
+      "id": "tx_bet_1789632566421_6mah",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 10,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1min Period 202609170490 (bigSmall small)",
+      "createdAt": 1789632566421
+    },
+    {
+      "id": "tx_bet_1789632524981_n7i4",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 10,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1min Period 202609170489 (color violet)",
+      "createdAt": 1789632524981
+    },
+    {
+      "id": "tx_win_1789632360688_s0g4",
+      "userId": "123456",
+      "type": "WIN_PAYOUT",
+      "amount": 19.6,
+      "status": "COMPLETED",
+      "description": "Win Payout: Win Go 1min Period 202609170486 (bigSmall big)",
+      "createdAt": 1789632360688
+    },
+    {
+      "id": "tx_bet_1789632345843_zn87",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 10,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1min Period 202609170486 (bigSmall big)",
+      "createdAt": 1789632345843
+    },
+    {
+      "id": "tx_win_1789631160091_s14j",
+      "userId": "123456",
+      "type": "WIN_PAYOUT",
+      "amount": 14.7,
+      "status": "COMPLETED",
+      "description": "Win Payout: Win Go 1min Period 202609170466 (color green)",
+      "createdAt": 1789631160091
+    },
+    {
+      "id": "tx_bet_1789631107153_j8o7",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 10,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1min Period 202609170466 (color green)",
+      "createdAt": 1789631107153
+    },
+    {
+      "id": "tx_bet_1789630155097_h0xg",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 10,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1min Period 202609170450 (bigSmall small)",
+      "createdAt": 1789630155097
+    },
+    {
+      "id": "tx_wd_1789629307905_juhp",
+      "userId": "123456",
+      "type": "WITHDRAW",
+      "amount": 100,
+      "status": "PENDING",
+      "description": "Withdrawal to 918273645012 (Bank Transfer)",
+      "method": "Bank Transfer",
+      "referenceId": "WD-29307905",
+      "createdAt": 1789629307905
+    },
+    {
+      "id": "tx_wd_1789629303532_z9ci",
+      "userId": "123456",
+      "type": "WITHDRAW",
+      "amount": 100,
+      "status": "PENDING",
+      "description": "Withdrawal to TNv9k2p8zY4e87M9sX2w1qL3jK5hG8rD4f (USDT (TRC20))",
+      "method": "USDT (TRC20)",
+      "referenceId": "WD-29303532",
+      "createdAt": 1789629303532
+    },
+    {
+      "id": "tx_rec_1789629296955_03bt",
+      "userId": "123456",
+      "type": "RECHARGE",
+      "amount": 100,
+      "status": "COMPLETED",
+      "description": "Recharge via USDT (TRC20)",
+      "method": "USDT (TRC20)",
+      "referenceId": "REC-29296829",
+      "createdAt": 1789629296955
+    },
+    {
+      "id": "tx_bet_1789629142806_bm4v",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 50,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1min Period 202609170433 (bigSmall small)",
+      "createdAt": 1789629142806
+    },
+    {
+      "id": "tx_init_1",
+      "userId": "123456",
+      "type": "RECHARGE",
+      "amount": 1000,
+      "status": "COMPLETED",
+      "description": "Recharge via UPI",
+      "createdAt": 1789542351454,
+      "method": "UPI",
+      "referenceId": "UPI-992817264"
+    },
+    {
+      "id": "tx_init_2",
+      "userId": "123456",
+      "type": "BET",
+      "amount": 100,
+      "status": "COMPLETED",
+      "description": "Bet on Win Go 1 Min (Period 202609160120)",
+      "createdAt": 1789628451454
+    },
+    {
+      "id": "tx_init_3",
+      "userId": "123456",
+      "type": "WIN_PAYOUT",
+      "amount": 196,
+      "status": "COMPLETED",
+      "description": "Win Payout Period 202609160120",
+      "createdAt": 1789628511454
+    }
+  ],
+  "paymentOrders": [
+    {
+      "id": "order_usd_101",
+      "userId": "123456",
+      "amount": 1000,
+      "currency": "USD",
+      "method": "STRIPE_CARD",
+      "status": "COMPLETED",
+      "gatewayReference": "pi_3N92k1948x12",
+      "createdAt": 1789549028808,
+      "completedAt": 1789549032808,
+      "verifiedBy": "SERVER_VERIFY"
+    },
+    {
+      "id": "order_usd_102",
+      "userId": "123456",
+      "amount": 250,
+      "currency": "USD",
+      "method": "CRYPTO_USDT",
+      "status": "PENDING",
+      "gatewayReference": "tx_0x92f8194e82b7",
+      "depositAddress": "TNv9k2p8zY4e87M9sX2w1qL3jK5hG8rD4f",
+      "createdAt": 1789633628808
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wd_usd_901",
+      "userId": "123456",
+      "amount": 500,
+      "fee": 0,
+      "netAmount": 500,
+      "currency": "USD",
+      "method": "BANK_WIRE",
+      "destination": {
+        "accountName": "Alex Mercer",
+        "accountNumber": "482910394821",
+        "routingNumber": "021000021",
+        "bankName": "JPMorgan Chase Bank, N.A."
+      },
+      "status": "COMPLETED",
+      "requestedAt": 1789462628808,
+      "processedAt": 1789466228808,
+      "managerUid": "MGR-888999",
+      "actionHistory": [
+        {
+          "managerUid": "MGR-888999",
+          "action": "APPROVED",
+          "timestamp": 1789464428808,
+          "prevStatus": "PENDING",
+          "newStatus": "APPROVED",
+          "reason": "KYC verified and balance cleared"
+        },
+        {
+          "managerUid": "MGR-888999",
+          "action": "COMPLETED",
+          "timestamp": 1789466228808,
+          "prevStatus": "APPROVED",
+          "newStatus": "COMPLETED",
+          "reason": "Fedwire transfer dispatched #FW-98124"
+        }
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "managerUid": "MGR-100200",
+      "action": "MANAGER_LOGIN",
+      "reason": "Successful portal login session started",
+      "ip": "127.0.0.1",
+      "id": "audit_1789644573867_vsqm",
+      "timestamp": 1789644573867
+    },
+    {
+      "managerUid": "MGR-888999",
+      "action": "MANAGER_LOGIN",
+      "reason": "Successful portal login session started",
+      "ip": "127.0.0.1",
+      "id": "audit_1789644571498_c6y4",
+      "timestamp": 1789644571498
+    },
+    {
+      "managerUid": "MGR-888999",
+      "action": "MANAGER_LOGIN",
+      "reason": "Successful portal login session started",
+      "ip": "127.0.0.1",
+      "id": "audit_1789644548720_3c2w",
+      "timestamp": 1789644548720
+    },
+    {
+      "managerUid": "MGR-888999",
+      "action": "MANAGER_LOGIN",
+      "reason": "Successful portal login session started",
+      "ip": "127.0.0.1",
+      "id": "audit_1789635982837_x2yu",
+      "timestamp": 1789635982837
+    },
+    {
+      "managerUid": "MGR-888999",
+      "action": "MANAGER_LOGIN",
+      "reason": "Successful portal login session started",
+      "ip": "127.0.0.1",
+      "id": "audit_1789635432883_8heu",
+      "timestamp": 1789635432883
+    },
+    {
+      "id": "audit_init_1",
+      "managerUid": "MGR-888999",
+      "action": "SYSTEM_BOOTSTRAP",
+      "reason": "Initialized Prism USD Financial & Game Engine Architecture",
+      "timestamp": 1789549028808,
+      "ip": "127.0.0.1"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "msg_1",
+      "userId": "123456",
+      "sender": "agent",
+      "message": "Welcome to Prism Customer Support! How can we assist you today?",
+      "timestamp": 1789625151454
+    }
+  ],
+  "systemSettings": {
+    "minDepositUsd": 10,
+    "maxDepositUsd": 25000,
+    "minWithdrawalUsd": 20,
+    "maxWithdrawalUsd": 10000,
+    "dailyWithdrawalLimitUsd": 25000,
+    "houseCommissionPercent": 2,
+    "paymentGateways": {
+      "stripeEnabled": true,
+      "cryptoEnabled": true,
+      "paypalEnabled": true,
+      "bankWireEnabled": true,
+      "usdtTrc20Address": "TNv9k2p8zY4e87M9sX2w1qL3jK5hG8rD4f",
+      "usdtBep20Address": "0x71C8360f38A9f47132924A224D2A2fB25c5C5199"
+    }
+  }
+}

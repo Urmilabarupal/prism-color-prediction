@@ -1,0 +1,6 @@
+{
+  "name": "Prism Color Prediction",
+  "description": "A premier mobile color prediction gaming application with real-time server rounds, wallet management, recharge and withdrawal, referral program, and account services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
