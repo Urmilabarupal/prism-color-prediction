@@ -33,7 +33,7 @@ export function setManagerToken(token: string | null): void {
   }
 }
 
-async function fetchJson<T>(url: string, options?: RequestInit, retries = 2): Promise<T> {
+async function fetchJson<T>(url: string, options?: RequestInit, retries = 3): Promise<T> {
   let lastError: any;
   const managerToken = getManagerToken();
 
@@ -41,6 +41,7 @@ async function fetchJson<T>(url: string, options?: RequestInit, retries = 2): Pr
     try {
       const response = await fetch(url, {
         ...options,
+        cache: 'no-store',
         headers: {
           'Content-Type': 'application/json',
           ...(managerToken ? { 'x-manager-token': managerToken } : {}),
@@ -56,8 +57,8 @@ async function fetchJson<T>(url: string, options?: RequestInit, retries = 2): Pr
     } catch (err: any) {
       lastError = err;
       if (attempt < retries) {
-        // Exponential backoff delay
-        await new Promise((resolve) => setTimeout(resolve, 300 * (attempt + 1)));
+        // Give the dev/proxy server time to finish booting after a cold start.
+        await new Promise((resolve) => setTimeout(resolve, 400 * 2 ** attempt));
       }
     }
   }
