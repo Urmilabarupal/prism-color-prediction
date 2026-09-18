@@ -87,6 +87,20 @@ export const LoginPage: React.FC<LoginPageProps> = ({
     }
   };
 
+  const handleDemoLogin = async () => {
+    setError(null);
+    setLoading(true);
+    try {
+      await login('2025550143', 'password123', 'phone');
+      setSuccessMsg('Demo login successful! Welcome to Prism.');
+      setTimeout(handleComplete, 400);
+    } catch (err: any) {
+      setError(err.message || 'Demo login failed. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const handleGoogleLogin = async () => {
     setError(null);
     setLoading(true);
@@ -302,6 +316,18 @@ export const LoginPage: React.FC<LoginPageProps> = ({
             )}
           </button>
         </form>
+
+        {!isRegisterMode && (
+          <button
+            id="demo-login-btn"
+            type="button"
+            onClick={handleDemoLogin}
+            disabled={loading}
+            className="w-full mt-3 py-3 border border-emerald-200 bg-emerald-50 text-emerald-700 font-bold text-xs rounded-xl hover:bg-emerald-100 transition-colors disabled:opacity-70"
+          >
+            Continue with Demo Login
+          </button>
+        )}
 
         {/* Divider */}
         <div className="relative my-5 text-center">
