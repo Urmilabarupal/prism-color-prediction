@@ -69,8 +69,11 @@ export interface User {
   managerUid?: string;
   permissions?: ManagerPermission[];
   status: UserStatus;
-  balance: number; // Available USD Balance
+  balance: number; // Legacy alias for fundingWalletBalance
+  fundingWalletBalance?: number;
+  mainWalletBalance?: number;
   lockedBalance: number; // USD Locked in Pending Withdrawals
+  restrictedBonusBalance?: number;
   totalDeposited: number; // Cumulative USD Deposited
   totalWithdrawn: number; // Cumulative USD Withdrawn
   totalWinnings: number; // Cumulative USD Won
@@ -211,6 +214,16 @@ export interface SystemSettings {
     bankWireEnabled: boolean;
     usdtTrc20Address: string;
     usdtBep20Address: string;
+    depositQrCode?: string;
+  };
+  reward: {
+    enabled: boolean;
+    percentage: number;
+    fixedAmount: number;
+    minimumDeposit: number;
+    maximumReward: number;
+    expiryDays: number;
+    conditions: string;
   };
 }
 
