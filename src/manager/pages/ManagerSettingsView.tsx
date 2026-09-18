@@ -136,6 +136,19 @@ export const ManagerSettingsView: React.FC = () => {
           </div>
         </div>
 
+        {/* Deposit Reward Campaign */}
+        <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
+          <h2 className="text-sm font-bold text-white uppercase tracking-wider">Deposit Reward Campaign</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <label className="text-slate-300">Reward percentage (%)<input type="number" min="0" value={settings.reward.percentage} onChange={e => setSettings({ ...settings, reward: { ...settings.reward, percentage: Number(e.target.value) } })} className="mt-1 w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-white" /></label>
+            <label className="text-slate-300">Minimum deposit<input type="number" min="0" value={settings.reward.minimumDeposit} onChange={e => setSettings({ ...settings, reward: { ...settings.reward, minimumDeposit: Number(e.target.value) } })} className="mt-1 w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-white" /></label>
+            <label className="text-slate-300">Maximum reward<input type="number" min="0" value={settings.reward.maximumReward} onChange={e => setSettings({ ...settings, reward: { ...settings.reward, maximumReward: Number(e.target.value) } })} className="mt-1 w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-white" /></label>
+            <label className="text-slate-300">Expiry (days)<input type="number" min="1" value={settings.reward.expiryDays} onChange={e => setSettings({ ...settings, reward: { ...settings.reward, expiryDays: Number(e.target.value) } })} className="mt-1 w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-white" /></label>
+          </div>
+          <label className="flex items-center gap-2 text-slate-300"><input type="checkbox" checked={settings.reward.enabled} onChange={e => setSettings({ ...settings, reward: { ...settings.reward, enabled: e.target.checked } })} /> Campaign active</label>
+          <p className="text-[11px] text-slate-500">{settings.reward.conditions}</p>
+        </div>
+
         {/* Game Engine Parameters */}
         <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
           <h2 className="text-sm font-bold text-white uppercase tracking-wider flex items-center">

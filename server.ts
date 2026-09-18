@@ -381,9 +381,11 @@ async function startServer() {
       success: true,
       wallet: {
         currency: 'USD',
-        availableBalance: user.balance,
-        lockedBalance: user.lockedBalance || 0.0,
-        totalBalance: user.balance + (user.lockedBalance || 0.0) + user.bonus + user.promotion + user.gift,
+  availableBalance: user.fundingWalletBalance ?? user.balance,
+  fundingWalletBalance: user.fundingWalletBalance ?? user.balance,
+  mainWalletBalance: user.mainWalletBalance || 0,
+  lockedBalance: user.lockedBalance || 0.0,
+  totalBalance: (user.fundingWalletBalance ?? user.balance) + (user.mainWalletBalance || 0) + (user.lockedBalance || 0.0),
         totalDeposited: user.totalDeposited || 0.0,
         totalWithdrawn: user.totalWithdrawn || 0.0,
         totalWinnings: user.totalWinnings || 0.0,
@@ -495,8 +497,15 @@ async function startServer() {
     }
 
     // Atomically credit user USD balance & create ledger entry
-    const oldBalance = user.balance;
-    user.balance = Math.round((user.balance + order.amount) * 100) / 100;
+    const oldBalance = user.fundingWalletBalance ?? user.balance;
+    const rewardSettings = db.systemSettings.reward;
+    const reward = rewardSettings?.enabled && order.amount >= (rewardSettings.minimumDeposit || 0)
+      ? Math.min(order.amount * ((rewardSettings.percentage || 0) / 100) + (rewardSettings.fixedAmount || 0), rewardSettings.maximumReward || Number.MAX_SAFE_INTEGER)
+      : 0;
+    user.fundingWalletBalance = Math.round((oldBalance + order.amount) * 100) / 100;
+    user.balance = user.fundingWalletBalance;
+    user.restrictedBonusBalance = Math.round(((user.restrictedBonusBalance || 0) + reward) * 100) / 100;
+    user.bonus = user.restrictedBonusBalance;
     user.totalDeposited = Math.round(((user.totalDeposited || 0) + order.amount) * 100) / 100;
 
     order.status = 'COMPLETED';
@@ -543,8 +552,9 @@ async function startServer() {
     if (status === 'PAID' || status === 'COMPLETED') {
       const user = db.users[order.userId];
       if (user) {
-        const oldBal = user.balance;
-        user.balance = Math.round((user.balance + order.amount) * 100) / 100;
+        const oldBal = user.fundingWalletBalance ?? user.balance;
+        user.fundingWalletBalance = Math.round((oldBal + order.amount) * 100) / 100;
+        user.balance = user.fundingWalletBalance;
         user.totalDeposited = Math.round(((user.totalDeposited || 0) + order.amount) * 100) / 100;
         order.status = 'COMPLETED';
         order.completedAt = Date.now();
@@ -559,14 +569,30 @@ async function startServer() {
           method: order.method,
           referenceId: order.gatewayReference,
           oldBalance: oldBal,
-          newBalance: user.balance,
+          newBalance: user.fundingWalletBalance,
         });
-
         saveDb();
       }
     }
 
     return res.json({ success: true, order });
+  });
+
+  // Move only eligible, settled funds from Funding Wallet to Main Wallet.
+  app.post('/api/wallet/transfer-to-main', (req, res) => {
+    const { userId, amount } = req.body;
+    const numAmount = Math.round(Number(amount) * 100) / 100;
+    const db = getDb();
+    const user = db.users[userId];
+    if (!user || !Number.isFinite(numAmount) || numAmount <= 0) return res.status(400).json({ success: false, message: 'Invalid transfer request.' });
+    const funding = user.fundingWalletBalance ?? user.balance;
+    if (funding < numAmount) return res.status(400).json({ success: false, message: 'Insufficient Funding Wallet balance.' });
+    user.fundingWalletBalance = Math.round((funding - numAmount) * 100) / 100;
+    user.balance = user.fundingWalletBalance;
+    user.mainWalletBalance = Math.round(((user.mainWalletBalance || 0) + numAmount) * 100) / 100;
+    const tx = addLedgerTransaction({ userId, type: 'ADJUSTMENT', amount: numAmount, status: 'COMPLETED', description: 'Funding Wallet to Main Wallet transfer', method: 'INTERNAL_TRANSFER', oldBalance: funding, newBalance: user.mainWalletBalance });
+    saveDb();
+    return res.json({ success: true, message: 'Funds transferred to Main Wallet.', fundingWalletBalance: user.fundingWalletBalance, mainWalletBalance: user.mainWalletBalance, transaction: tx });
   });
 
   // ==========================================
@@ -596,15 +622,18 @@ async function startServer() {
       return res.status(403).json({ success: false, message: 'Account suspended. Cannot process withdrawal.' });
     }
 
-    // Check available balance
-    if (user.balance < numAmount) {
-      return res.status(400).json({
-        success: false,
-        message: `Insufficient available balance ($${user.balance.toFixed(2)} USD). You cannot withdraw locked or unavailable funds.`,
-      });
+    if (!['USDT_TRC20', 'USDT_BEP20'].includes(method)) {
+      return res.status(400).json({ success: false, message: 'Withdrawals are available only to USDT wallets.' });
+    }
+    const walletAddress = String(destination?.walletAddress || '').trim();
+    const validWallet = method === 'USDT_TRC20' ? /^T[a-zA-Z0-9]{20,}$/.test(walletAddress) : /^0x[a-fA-F0-9]{40}$/.test(walletAddress);
+    if (!validWallet) return res.status(400).json({ success: false, message: `Enter a valid ${method === 'USDT_TRC20' ? 'TRC20' : 'BEP20'} wallet address.` });
+    const mainBalance = user.mainWalletBalance || 0;
+    if (mainBalance < numAmount) {
+      return res.status(400).json({ success: false, message: `Insufficient Main Wallet balance ($${mainBalance.toFixed(2)} USD).` });
     }
 
-    const wdMethod = (method as WithdrawalMethod) || 'BANK_WIRE';
+    const wdMethod = method as WithdrawalMethod;
     const dest = destination || user.bankDetails || {};
 
     // 0% fee for VIP users, or standard 0%
@@ -612,8 +641,8 @@ async function startServer() {
     const netAmount = numAmount - fee;
 
     // Lock funds to prevent double spending!
-    const oldBalance = user.balance;
-    user.balance = Math.round((user.balance - numAmount) * 100) / 100;
+    const oldBalance = user.mainWalletBalance || 0;
+    user.mainWalletBalance = Math.round((oldBalance - numAmount) * 100) / 100;
     user.lockedBalance = Math.round(((user.lockedBalance || 0.0) + numAmount) * 100) / 100;
 
     const wdId = `wd_usd_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
@@ -667,7 +696,8 @@ async function startServer() {
       success: true,
       message: `Withdrawal request for $${numAmount.toFixed(2)} USD submitted successfully! Funds have been reserved for manager processing.`,
       withdrawal: wdRequest,
-      availableBalance: user.balance,
+      availableBalance: user.mainWalletBalance,
+      mainWalletBalance: user.mainWalletBalance,
       lockedBalance: user.lockedBalance,
       transaction: tx,
     });

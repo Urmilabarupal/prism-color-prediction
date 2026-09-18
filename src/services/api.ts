@@ -184,6 +184,10 @@ export const api = {
     return res.wallet;
   },
 
+  async transferToMainWallet(userId: string, amount: number): Promise<{ success: boolean; message: string; fundingWalletBalance: number; mainWalletBalance: number }> {
+    return await fetchJson('/api/wallet/transfer-to-main', { method: 'POST', body: JSON.stringify({ userId, amount }) });
+  },
+
   async getTransactions(userId: string): Promise<WalletTransaction[]> {
     const res = await fetchJson<{ success: boolean; transactions: WalletTransaction[] }>(
       `/api/wallet/transactions?userId=${encodeURIComponent(userId)}`

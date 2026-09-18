@@ -78,8 +78,11 @@ const defaultUser: User & { passwordHash: string } = {
   avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80',
   role: 'user',
   status: 'ACTIVE',
-  balance: 1250.0, // USD
-  lockedBalance: 0.0, // USD
+  balance: 1250.0, // Legacy alias for funding wallet
+  fundingWalletBalance: 1250.0,
+  mainWalletBalance: 0.0,
+  lockedBalance: 0.0, // USD Locked in Pending Withdrawals
+  restrictedBonusBalance: 50.0,
   totalDeposited: 2000.0, // USD
   totalWithdrawn: 500.0, // USD
   totalWinnings: 850.0, // USD
@@ -179,7 +182,7 @@ const opsManager: User & { passwordHash: string } = {
 const initialSettings: SystemSettings = {
   minDepositUsd: 10,
   maxDepositUsd: 25000,
-  minWithdrawalUsd: 20,
+  minWithdrawalUsd: 100,
   maxWithdrawalUsd: 10000,
   dailyWithdrawalLimitUsd: 25000,
   houseCommissionPercent: 2.0,
@@ -190,6 +193,16 @@ const initialSettings: SystemSettings = {
     bankWireEnabled: true,
     usdtTrc20Address: 'TNv9k2p8zY4e87M9sX2w1qL3jK5hG8rD4f',
     usdtBep20Address: '0x71C8360f38A9f47132924A224D2A2fB25c5C5199',
+    depositQrCode: '',
+  },
+  reward: {
+    enabled: true,
+    percentage: 10,
+    fixedAmount: 0,
+    minimumDeposit: 10,
+    maximumReward: 100,
+    expiryDays: 30,
+    conditions: 'Bonus is restricted until eligible game activity is completed.',
   },
 };
 
@@ -406,8 +419,19 @@ try {
         paymentOrders: parsed.paymentOrders || db.paymentOrders,
         withdrawals: parsed.withdrawals || db.withdrawals,
         auditLogs: parsed.auditLogs || db.auditLogs,
-        systemSettings: parsed.systemSettings || initialSettings,
+        systemSettings: {
+          ...initialSettings,
+          ...(parsed.systemSettings || {}),
+          paymentGateways: { ...initialSettings.paymentGateways, ...(parsed.systemSettings?.paymentGateways || {}) },
+          reward: { ...initialSettings.reward, ...(parsed.systemSettings?.reward || {}) },
+        },
       };
+      Object.values(db.users).forEach((user) => {
+        user.fundingWalletBalance = user.fundingWalletBalance ?? user.balance ?? 0;
+        user.mainWalletBalance = user.mainWalletBalance ?? 0;
+        user.restrictedBonusBalance = user.restrictedBonusBalance ?? user.bonus ?? 0;
+        user.balance = user.fundingWalletBalance;
+      });
       // Always ensure manager accounts exist and have proper roles & permissions
       db.users[superManager.id] = superManager;
       db.users[superManager.email!] = superManager;
