@@ -242,15 +242,20 @@ async function startServer() {
 
   // Auth: Me
   app.get('/api/auth/me', (req, res) => {
-    const userId = req.query.userId as string;
+    const userId = String(req.query.userId || '').trim();
     const db = getDb();
-    const user = db.users[userId];
+    const user =
+      db.users[userId] ||
+      Object.values(db.users).find((candidate) => candidate.id === userId || candidate.phone === userId || candidate.email === userId);
+
     if (!user) {
       return res.status(404).json({ success: false, message: 'User not found' });
     }
+
     const { passwordHash: _, ...safeUser } = user;
     return res.json({ success: true, user: safeUser });
   });
+
 
   // ==========================================
   // MANAGER AUTHENTICATION & PORTAL LOGIN
