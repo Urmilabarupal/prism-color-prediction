@@ -32,6 +32,50 @@
       "totalBets": 1100,
       "lastLogin": 1789657174750
     },
+    "940686": {
+      "id": "940686",
+      "username": "User_0143",
+      "phone": "2025550143",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "role": "user",
+      "status": "ACTIVE",
+      "balance": 1000,
+      "lockedBalance": 0,
+      "totalDeposited": 1000,
+      "totalWithdrawn": 0,
+      "totalWinnings": 0,
+      "totalBets": 0,
+      "bonus": 50,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 1,
+      "inviteCode": "940686",
+      "passwordHash": "password123",
+      "createdAt": 1789705156561,
+      "lastLogin": 1789705214450
+    },
+    "2025550143": {
+      "id": "940686",
+      "username": "User_0143",
+      "phone": "2025550143",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "role": "user",
+      "status": "ACTIVE",
+      "balance": 1000,
+      "lockedBalance": 0,
+      "totalDeposited": 1000,
+      "totalWithdrawn": 0,
+      "totalWinnings": 0,
+      "totalBets": 0,
+      "bonus": 50,
+      "promotion": 0,
+      "gift": 0,
+      "vipLevel": 1,
+      "inviteCode": "940686",
+      "passwordHash": "password123",
+      "createdAt": 1789705156561,
+      "lastLogin": 1789705214450
+    },
     "9876543210": {
       "id": "123456",
       "username": "Sandeep123",
@@ -114,8 +158,8 @@
       "vipLevel": 10,
       "inviteCode": "ADMIN01",
       "passwordHash": "Manager@2026",
-      "createdAt": 1784472849452,
-      "lastLogin": 1789656849452
+      "createdAt": 1784521151872,
+      "lastLogin": 1789705151872
     },
     "admin@prismgame.com": {
       "id": "MGR-888999",
@@ -151,8 +195,8 @@
       "vipLevel": 10,
       "inviteCode": "ADMIN01",
       "passwordHash": "Manager@2026",
-      "createdAt": 1784472849452,
-      "lastLogin": 1789656849452
+      "createdAt": 1784521151872,
+      "lastLogin": 1789705151872
     },
     "MGR-100200": {
       "id": "MGR-100200",
@@ -185,8 +229,8 @@
       "vipLevel": 8,
       "inviteCode": "OPS02",
       "passwordHash": "Manager@2026",
-      "createdAt": 1786200849452,
-      "lastLogin": 1789649649452
+      "createdAt": 1786249151872,
+      "lastLogin": 1789697951872
     },
     "ops@prismgame.com": {
       "id": "MGR-100200",
@@ -219,12 +263,24 @@
       "vipLevel": 8,
       "inviteCode": "OPS02",
       "passwordHash": "Manager@2026",
-      "createdAt": 1786200849452,
-      "lastLogin": 1789649649452
+      "createdAt": 1786249151872,
+      "lastLogin": 1789697951872
     }
   },
   "roundsHistory": {
     "1min": [
+      {
+        "periodId": "202609180260",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "04:19:55",
+        "timestamp": 1789705195929
+      },
       {
         "periodId": "202609170899",
         "mode": "1min",
@@ -1333,17 +1389,6 @@
         "bigSmall": "small",
         "time": "07:44:55",
         "timestamp": 1789631095056
-      },
-      {
-        "periodId": "202609170464",
-        "mode": "1min",
-        "number": 1,
-        "colors": [
-          "green"
-        ],
-        "bigSmall": "small",
-        "time": "07:43:55",
-        "timestamp": 1789631035212
       }
     ],
     "3min": [
@@ -2136,6 +2181,17 @@
     ],
     "5min": [
       {
+        "periodId": "202609180052",
+        "mode": "5min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "04:19:55",
+        "timestamp": 1789705195929
+      },
+      {
         "periodId": "202609170179",
         "mode": "5min",
         "number": 9,
@@ -2608,6 +2664,17 @@
       }
     ],
     "10min": [
+      {
+        "periodId": "202609180026",
+        "mode": "10min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "04:19:55",
+        "timestamp": 1789705195929
+      },
       {
         "periodId": "202609170089",
         "mode": "10min",
@@ -3222,6 +3289,19 @@
     }
   ],
   "transactions": [
+    {
+      "id": "tx_1789705156562_s6lpk",
+      "userId": "940686",
+      "amount": 50,
+      "currency": "USD",
+      "type": "BONUS",
+      "status": "COMPLETED",
+      "description": "Registration Welcome Bonus ($50.00 USD)",
+      "createdAt": 1789705156562,
+      "updatedAt": 1789705156562,
+      "oldBalance": 1000,
+      "newBalance": 1050
+    },
     {
       "id": "tx_bet_1789632570388_0h49",
       "userId": "123456",

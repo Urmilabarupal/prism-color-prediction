@@ -43,8 +43,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           localStorage.removeItem(AUTH_CACHE_KEY);
         }
       } catch (err: any) {
-        // If explicitly user not found (404), clear storage
-        if (err?.message?.includes('not found') || err?.message?.includes('404')) {
+        // A missing account means the cached session is no longer valid.
+        if (err?.message?.toLowerCase().includes('not found') || err?.message?.includes('404')) {
           localStorage.removeItem(AUTH_STORAGE_KEY);
           localStorage.removeItem(AUTH_CACHE_KEY);
           setUser(null);
