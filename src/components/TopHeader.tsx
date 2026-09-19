@@ -10,7 +10,7 @@ interface TopHeaderProps {
   onRightAction?: () => void;
   onSupportClick?: () => void;
   onNotificationClick?: () => void;
-  variant?: 'red' | 'white';
+  variant?: 'red' | 'green' | 'white';
 }
 
 export const TopHeader: React.FC<TopHeaderProps> = ({
@@ -24,12 +24,17 @@ export const TopHeader: React.FC<TopHeaderProps> = ({
   variant = 'red',
 }) => {
   const isRed = variant === 'red';
+  const isGreen = variant === 'green';
 
   return (
     <header
       id="top-header"
       className={`sticky top-0 z-30 w-full px-4 h-12 flex items-center justify-between select-none ${
-        isRed ? 'bg-[#FA3534] text-white shadow-sm' : 'bg-white text-slate-800 border-b border-slate-100'
+        isRed
+          ? 'bg-[#FA3534] text-white shadow-sm'
+          : isGreen
+          ? 'bg-[#18B875] text-white shadow-sm'
+          : 'bg-white text-slate-800 border-b border-slate-100'
       }`}
     >
       {/* Left section */}

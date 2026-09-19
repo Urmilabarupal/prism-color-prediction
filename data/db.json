@@ -114,8 +114,8 @@
       "vipLevel": 10,
       "inviteCode": "ADMIN01",
       "passwordHash": "Manager@2026",
-      "createdAt": 1784511416725,
-      "lastLogin": 1789695416725
+      "createdAt": 1784512744371,
+      "lastLogin": 1789696744371
     },
     "admin@prismgame.com": {
       "id": "MGR-888999",
@@ -151,8 +151,8 @@
       "vipLevel": 10,
       "inviteCode": "ADMIN01",
       "passwordHash": "Manager@2026",
-      "createdAt": 1784511416725,
-      "lastLogin": 1789695416725
+      "createdAt": 1784512744371,
+      "lastLogin": 1789696744371
     },
     "MGR-100200": {
       "id": "MGR-100200",
@@ -185,8 +185,8 @@
       "vipLevel": 8,
       "inviteCode": "OPS02",
       "passwordHash": "Manager@2026",
-      "createdAt": 1786239416725,
-      "lastLogin": 1789688216725
+      "createdAt": 1786240744371,
+      "lastLogin": 1789689544371
     },
     "ops@prismgame.com": {
       "id": "MGR-100200",
@@ -219,12 +219,224 @@
       "vipLevel": 8,
       "inviteCode": "OPS02",
       "passwordHash": "Manager@2026",
-      "createdAt": 1786239416725,
-      "lastLogin": 1789688216725
+      "createdAt": 1786240744371,
+      "lastLogin": 1789689544371
     }
   },
   "roundsHistory": {
     "1min": [
+      {
+        "periodId": "202609180138",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "02:17:55",
+        "timestamp": 1789697875950
+      },
+      {
+        "periodId": "202609180137",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:16:55",
+        "timestamp": 1789697815924
+      },
+      {
+        "periodId": "202609180136",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "02:15:55",
+        "timestamp": 1789697755899
+      },
+      {
+        "periodId": "202609180135",
+        "mode": "1min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "02:14:55",
+        "timestamp": 1789697695872
+      },
+      {
+        "periodId": "202609180134",
+        "mode": "1min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "02:13:55",
+        "timestamp": 1789697635841
+      },
+      {
+        "periodId": "202609180133",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "02:12:55",
+        "timestamp": 1789697575814
+      },
+      {
+        "periodId": "202609180132",
+        "mode": "1min",
+        "number": 8,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "02:11:55",
+        "timestamp": 1789697515787
+      },
+      {
+        "periodId": "202609180131",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:10:55",
+        "timestamp": 1789697455757
+      },
+      {
+        "periodId": "202609180130",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "02:09:55",
+        "timestamp": 1789697395729
+      },
+      {
+        "periodId": "202609180129",
+        "mode": "1min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "02:08:55",
+        "timestamp": 1789697335697
+      },
+      {
+        "periodId": "202609180128",
+        "mode": "1min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "02:07:55",
+        "timestamp": 1789697275671
+      },
+      {
+        "periodId": "202609180127",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "02:06:55",
+        "timestamp": 1789697215642
+      },
+      {
+        "periodId": "202609180126",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:05:55",
+        "timestamp": 1789697155615
+      },
+      {
+        "periodId": "202609180125",
+        "mode": "1min",
+        "number": 6,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "big",
+        "time": "02:04:55",
+        "timestamp": 1789697095589
+      },
+      {
+        "periodId": "202609180124",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "02:03:55",
+        "timestamp": 1789697035556
+      },
+      {
+        "periodId": "202609180123",
+        "mode": "1min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:02:55",
+        "timestamp": 1789696975528
+      },
+      {
+        "periodId": "202609180122",
+        "mode": "1min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:01:55",
+        "timestamp": 1789696915499
+      },
+      {
+        "periodId": "202609180121",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "02:00:55",
+        "timestamp": 1789696855466
+      },
+      {
+        "periodId": "202609180120",
+        "mode": "1min",
+        "number": 1,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "01:59:55",
+        "timestamp": 1789696795435
+      },
       {
         "periodId": "202609180103",
         "mode": "1min",
@@ -1133,221 +1345,89 @@
         "bigSmall": "big",
         "time": "08:23:55",
         "timestamp": 1789633435481
-      },
+      }
+    ],
+    "3min": [
       {
-        "periodId": "202609170503",
-        "mode": "1min",
+        "periodId": "202609180046",
+        "mode": "3min",
         "number": 2,
         "colors": [
           "red"
         ],
         "bigSmall": "small",
-        "time": "08:22:55",
-        "timestamp": 1789633375434
+        "time": "02:17:55",
+        "timestamp": 1789697875950
       },
       {
-        "periodId": "202609170502",
-        "mode": "1min",
-        "number": 8,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "big",
-        "time": "08:21:55",
-        "timestamp": 1789633315384
-      },
-      {
-        "periodId": "202609170501",
-        "mode": "1min",
-        "number": 6,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "big",
-        "time": "08:20:55",
-        "timestamp": 1789633255340
-      },
-      {
-        "periodId": "202609170500",
-        "mode": "1min",
-        "number": 2,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "small",
-        "time": "08:19:55",
-        "timestamp": 1789633195291
-      },
-      {
-        "periodId": "202609170499",
-        "mode": "1min",
-        "number": 1,
-        "colors": [
-          "green"
-        ],
-        "bigSmall": "small",
-        "time": "08:18:55",
-        "timestamp": 1789633135251
-      },
-      {
-        "periodId": "202609170498",
-        "mode": "1min",
-        "number": 3,
-        "colors": [
-          "green"
-        ],
-        "bigSmall": "small",
-        "time": "08:17:55",
-        "timestamp": 1789633075200
-      },
-      {
-        "periodId": "202609170497",
-        "mode": "1min",
-        "number": 4,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "small",
-        "time": "08:16:55",
-        "timestamp": 1789633015156
-      },
-      {
-        "periodId": "202609170496",
-        "mode": "1min",
-        "number": 1,
-        "colors": [
-          "green"
-        ],
-        "bigSmall": "small",
-        "time": "08:15:55",
-        "timestamp": 1789632955116
-      },
-      {
-        "periodId": "202609170495",
-        "mode": "1min",
-        "number": 3,
-        "colors": [
-          "green"
-        ],
-        "bigSmall": "small",
-        "time": "08:14:55",
-        "timestamp": 1789632895070
-      },
-      {
-        "periodId": "202609170494",
-        "mode": "1min",
-        "number": 6,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "big",
-        "time": "08:13:55",
-        "timestamp": 1789632835025
-      },
-      {
-        "periodId": "202609170493",
-        "mode": "1min",
-        "number": 0,
-        "colors": [
-          "red",
-          "violet"
-        ],
-        "bigSmall": "small",
-        "time": "08:12:55",
-        "timestamp": 1789632775983
-      },
-      {
-        "periodId": "202609170492",
-        "mode": "1min",
-        "number": 0,
-        "colors": [
-          "red",
-          "violet"
-        ],
-        "bigSmall": "small",
-        "time": "08:11:55",
-        "timestamp": 1789632715941
-      },
-      {
-        "periodId": "202609170491",
-        "mode": "1min",
-        "number": 6,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "big",
-        "time": "08:10:55",
-        "timestamp": 1789632655897
-      },
-      {
-        "periodId": "202609170490",
-        "mode": "1min",
+        "periodId": "202609180045",
+        "mode": "3min",
         "number": 7,
         "colors": [
           "green"
         ],
         "bigSmall": "big",
-        "time": "08:09:55",
-        "timestamp": 1789632595855
+        "time": "02:14:55",
+        "timestamp": 1789697695872
       },
       {
-        "periodId": "202609170489",
-        "mode": "1min",
-        "number": 8,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "big",
-        "time": "08:08:55",
-        "timestamp": 1789632535816
-      },
-      {
-        "periodId": "202609170488",
-        "mode": "1min",
-        "number": 4,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "small",
-        "time": "08:07:55",
-        "timestamp": 1789632475776
-      },
-      {
-        "periodId": "202609170487",
-        "mode": "1min",
-        "number": 2,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "small",
-        "time": "08:06:55",
-        "timestamp": 1789632415736
-      },
-      {
-        "periodId": "202609170486",
-        "mode": "1min",
-        "number": 6,
-        "colors": [
-          "red"
-        ],
-        "bigSmall": "big",
-        "time": "08:05:55",
-        "timestamp": 1789632355688
-      },
-      {
-        "periodId": "202609170485",
-        "mode": "1min",
+        "periodId": "202609180044",
+        "mode": "3min",
         "number": 0,
         "colors": [
           "red",
           "violet"
         ],
         "bigSmall": "small",
-        "time": "08:04:55",
-        "timestamp": 1789632295643
-      }
-    ],
-    "3min": [
+        "time": "02:11:55",
+        "timestamp": 1789697515787
+      },
+      {
+        "periodId": "202609180043",
+        "mode": "3min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "02:08:55",
+        "timestamp": 1789697335697
+      },
+      {
+        "periodId": "202609180042",
+        "mode": "3min",
+        "number": 5,
+        "colors": [
+          "green",
+          "violet"
+        ],
+        "bigSmall": "big",
+        "time": "02:05:55",
+        "timestamp": 1789697155615
+      },
+      {
+        "periodId": "202609180041",
+        "mode": "3min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:02:55",
+        "timestamp": 1789696975528
+      },
+      {
+        "periodId": "202609180040",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "01:59:55",
+        "timestamp": 1789696795435
+      },
       {
         "periodId": "202609180034",
         "mode": "3min",
@@ -2214,6 +2294,50 @@
     ],
     "5min": [
       {
+        "periodId": "202609180027",
+        "mode": "5min",
+        "number": 4,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "02:14:55",
+        "timestamp": 1789697695872
+      },
+      {
+        "periodId": "202609180026",
+        "mode": "5min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:09:55",
+        "timestamp": 1789697395729
+      },
+      {
+        "periodId": "202609180025",
+        "mode": "5min",
+        "number": 9,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "02:04:55",
+        "timestamp": 1789697095589
+      },
+      {
+        "periodId": "202609180024",
+        "mode": "5min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "01:59:55",
+        "timestamp": 1789696795435
+      },
+      {
         "periodId": "202609180020",
         "mode": "5min",
         "number": 9,
@@ -2732,6 +2856,29 @@
       }
     ],
     "10min": [
+      {
+        "periodId": "202609180013",
+        "mode": "10min",
+        "number": 0,
+        "colors": [
+          "red",
+          "violet"
+        ],
+        "bigSmall": "small",
+        "time": "02:09:55",
+        "timestamp": 1789697395729
+      },
+      {
+        "periodId": "202609180012",
+        "mode": "10min",
+        "number": 2,
+        "colors": [
+          "red"
+        ],
+        "bigSmall": "small",
+        "time": "01:59:55",
+        "timestamp": 1789696795435
+      },
       {
         "periodId": "202609180010",
         "mode": "10min",

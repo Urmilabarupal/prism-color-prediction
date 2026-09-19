@@ -44,10 +44,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectGameMode
   };
 
   return (
-    <div id="home-page" className="min-h-screen w-full bg-[#F6F7FB] pb-20 flex flex-col">
+    <div id="home-page" className="min-h-screen w-full bg-[#f4f8f6] pb-20 flex flex-col">
       {/* Top Header matching reference */}
       <TopHeader
-        variant="red"
+        variant="green"
         rightAction="support_notification"
         onSupportClick={() => onNavigate('support')}
         onNotificationClick={() => alert('Notifications: All withdrawal systems operating at 100% speed. Happy gaming!')}
@@ -178,7 +178,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectGameMode
           {/* Win Go Active */}
           <button
             onClick={() => handleGameSelect('1min')}
-            className="flex-1 min-w-[76px] py-2.5 px-3 rounded-xl bg-gradient-to-r from-[#FA3534] to-[#E02424] text-white flex flex-col items-center shadow-sm shadow-red-500/20 active:scale-95 transition-all"
+            className="flex-1 min-w-[76px] py-2.5 px-3 rounded-xl bg-gradient-to-r from-[#18B875] to-[#0f9d62] text-white flex flex-col items-center shadow-sm shadow-red-500/20 active:scale-95 transition-all"
           >
             <Zap className="w-5 h-5 mb-1" />
             <span className="text-xs font-black">Win Go</span>
