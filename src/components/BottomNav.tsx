@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Gift, Gamepad2, Wallet, User } from 'lucide-react';
+import { Home, Gift, Wallet, User, CircleDollarSign } from 'lucide-react';
 import { PageId } from '../types.js';
 
 interface BottomNavProps {
@@ -16,12 +16,12 @@ export const BottomNav: React.FC<BottomNavProps> = ({ currentPage, onNavigate })
     },
     {
       id: 'game',
-      label: 'Game',
-      icon: <Gamepad2 className="w-5 h-5" />,
+      label: 'Get ₹500',
+      icon: <CircleDollarSign className="w-5 h-5" />,
     },
     {
       id: 'wallet',
-      label: 'Wallet',
+      label: 'Promotion',
       icon: <Wallet className="w-5 h-5" />,
     },
     {
