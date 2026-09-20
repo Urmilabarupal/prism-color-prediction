@@ -285,6 +285,17 @@
   "roundsHistory": {
     "1min": [
       {
+        "periodId": "202609200441",
+        "mode": "1min",
+        "number": 3,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "small",
+        "time": "07:20:55",
+        "timestamp": 1789888855796
+      },
+      {
         "periodId": "202609200440",
         "mode": "1min",
         "number": 4,
@@ -1390,21 +1401,20 @@
         "bigSmall": "small",
         "time": "07:59:55",
         "timestamp": 1789631995422
-      },
-      {
-        "periodId": "202609170479",
-        "mode": "1min",
-        "number": 5,
-        "colors": [
-          "green",
-          "violet"
-        ],
-        "bigSmall": "big",
-        "time": "07:58:55",
-        "timestamp": 1789631935378
       }
     ],
     "3min": [
+      {
+        "periodId": "202609200147",
+        "mode": "3min",
+        "number": 7,
+        "colors": [
+          "green"
+        ],
+        "bigSmall": "big",
+        "time": "07:20:55",
+        "timestamp": 1789888855796
+      },
       {
         "periodId": "202609200146",
         "mode": "3min",
