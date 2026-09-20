@@ -53,50 +53,37 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectGameMode
         onNotificationClick={() => alert('Notifications: All withdrawal systems operating at 100% speed. Happy gaming!')}
       />
 
-      {/* Hero Banner Card */}
-      <div className="px-4 pt-3">
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0D1B3E] via-[#162A5E] to-[#254287] p-5 text-white shadow-md">
-          {/* Subtle decorative glow */}
-          <div className="absolute -right-8 -top-8 w-36 h-36 bg-amber-400/20 rounded-full blur-2xl pointer-events-none" />
+      {/* Promotional Banner with gradient background */}
+      <div className="w-full bg-gradient-to-b from-red-500 to-red-400 px-4 pt-4 pb-6">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 p-6 text-white shadow-lg">
+          {/* Decorative elements */}
+          <div className="absolute -right-12 -top-12 w-40 h-40 bg-white/10 rounded-full blur-3xl" />
+          <div className="absolute -left-12 -bottom-12 w-40 h-40 bg-white/10 rounded-full blur-3xl" />
 
-          <div className="flex justify-between items-center relative z-10">
-            <div>
-              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white/15 text-[11px] font-bold text-amber-300 backdrop-blur-sm mb-2">
-                <Flame className="w-3 h-3 text-amber-400 fill-amber-400" />
-                Fair & Certified RNG
-              </div>
-              <h2 className="text-xl font-black tracking-tight text-white leading-tight">
-                Play Smart <br />
-                <span className="text-amber-400">Win Big</span>
-              </h2>
-              <p className="text-[11px] text-slate-300 mt-1 font-medium">
-                Instant 24/7 payouts · 99.8% Return rate
-              </p>
-            </div>
-
-            {/* Graphic Illustration */}
-            <div className="relative flex items-center justify-center pr-2">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/30">
-                <Crown className="w-9 h-9 text-amber-950" />
-              </div>
-              <div className="absolute -bottom-1 -left-2 bg-gradient-to-r from-red-500 to-pink-500 text-white text-[9px] font-black px-1.5 py-0.5 rounded-md shadow">
-                VIP 1
-              </div>
-            </div>
+          <div className="relative z-10">
+            <h2 className="text-lg font-black text-white mb-1">Thanks to all members!</h2>
+            <p className="text-xs text-white/90 leading-relaxed mb-4">
+              Because of your support, we have become the most reputable gaming group in India. We provide bonuses, membership discounts, member betting rebates and will continue to launch exciting bonuses!
+            </p>
+            <p className="text-[11px] text-yellow-300 font-bold">💰 1% to 5%</p>
           </div>
+        </div>
+      </div>
 
-          {/* User balance quick view */}
+      {/* Quick Balance Card */}
+      <div className="px-4 mt-4">
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-red-500 to-red-600 p-6 text-white shadow-md">
           {user && (
-            <div className="mt-4 pt-3 border-t border-white/15 flex items-center justify-between text-xs">
-              <div className="flex items-center gap-2">
-                <span className="text-slate-300">Wallet Balance:</span>
-                <span className="font-extrabold text-white text-sm font-points">
-                  ${user.balance.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} USD
-                </span>
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-xs text-white/80 mb-1">Total Balance</p>
+                <p className="text-2xl font-black font-points">
+                  ₹{user.balance.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                </p>
               </div>
               <button
                 onClick={() => onNavigate('recharge')}
-                className="px-3 py-1 bg-gradient-to-r from-[#FF5252] to-[#FA3534] hover:brightness-110 text-white font-bold rounded-lg text-[11px] shadow transition-all active:scale-95"
+                className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full text-sm shadow-lg transition-all active:scale-95"
               >
                 + Recharge
               </button>
